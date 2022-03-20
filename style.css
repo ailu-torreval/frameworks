@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chewy&family=Fascinate&family=Fascinate+Inline&family=Limelight&family=Roboto&family=Rowdies&display=swap");
+
+/* body {
+  margin: 0;
+} */
+
+h1,
+h2,
+h3 {
+  font-family: "Abril Fatface", cursive;
+}
+
+nav {
+  padding-top: 0.5rem;
+  align-items: center;
+}
+
+button {
+  width: auto;
+}
+
+header {
+  height: 90vh;
+  align-items: center;
+  padding-top: 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+.advantages_cards {
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+
+.advantages_card_graphics {
+  background-image: url("./assets/summer.png");
+  background-size: cover;
+  background-position: center;
+  height: 12vh;
+  width: 12vw;
+}
+
+#product img {
+  align-self: center;
+}
+
+.highlight, 
+#team {
+  margin-top: 25%;
+}
+
+#team ul li {
+  list-style: none;
+}
+
+footer {
+  padding-bottom: 0;
+  height: min-content;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  .advantages_card_graphics {
+    width: 60vw;
+    height: 20vh;
+  }
+  header {
+    height: 100vh;
+  }
+}
